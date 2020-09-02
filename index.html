@@ -101,5 +101,11 @@
         </nav>
       </div>
     </footer>
+    <script>
+      var fixed = document.querySelector("footer"),
+        distanceFromTop = fixed.getBoundingClientRect().top;
+      fixed.style.top = distanceFromTop + "px";
+      fixed.style.bottom = "auto";
+    </script>
   </body>
 </html>
