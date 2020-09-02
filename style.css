@@ -163,6 +163,11 @@ footer {
   body {
     font-size: 11px;
   }
+  #sign-in {
+    width: 40px;
+
+    border-radius: 2px;
+  }
   .header-right {
     float: right;
     top: 0px;
@@ -175,11 +180,16 @@ footer {
     width: 300px;
   }
 }
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 350px) {
   body {
     font-size: 9px;
   }
   nav ul li {
     padding: 1px;
+  }
+  #sign-in {
+    width: 40px;
+
+    border-radius: 2px;
   }
 }
