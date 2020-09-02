@@ -165,12 +165,14 @@ footer {
     font-size: 11px;
   }
   #sign-in {
-    width: 50px;
+    /* width: 50px; */
 
     border-radius: 2px;
   }
   .header-right {
+    position: absolute;
     float: right;
+    left: 100px;
     top: 0px;
     /* margin-right: 2px; */
   }
