@@ -164,18 +164,24 @@ footer {
   body {
     font-size: 11px;
   }
-  .header-left {
+  /* .header-left {
     position: absolute;
     left: 0px;
-  }
+  } */
   .header-right {
     position: absolute;
     float: right;
     left: 100px;
     top: 0px;
   }
+
   nav ul li {
     padding: 2px;
+    font-size: 12px;
+  }
+  #footer-nav a {
+    padding: 6px;
+    font-size: 10px;
   }
   #search-input {
     width: 300px;
